@@ -13,7 +13,7 @@ exports.handler = async (event) => {
           }
           `,
           variables: {id}
-    });
+    }); 
 
     return {
         statusCode: 200,
